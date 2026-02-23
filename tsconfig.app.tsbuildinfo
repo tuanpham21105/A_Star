@@ -1,0 +1,1 @@
+{"root":["./src/App.tsx","./src/main.tsx","./src/components/ui/button.tsx","./src/components/ui/scroll-area.tsx","./src/components/ui/table.tsx","./src/components/ui/textarea.tsx","./src/lib/utils.ts","./src/logic/AStarAlgorithmLogic.ts","./src/page/AlgorithmPage.tsx"],"version":"5.9.3"}
