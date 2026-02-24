@@ -86,7 +86,7 @@ function solve() {
     const marker = new Map<string, string>()
 
     pq.push({state: startState, priority: 0})
-    stepsText += steps + "\t|" + startState + "\t|" + "\t|" + "\t|" + "\t|" + "\t|" + "\t|" + "\t|" + "\n"
+    stepsText += steps + "\t|" + "\t|" + "\t|" + "\t|" + "\t|" + "\t|" + "\t|" + "\t|" + queueToString(pq) + "\n"
 
     while (!pq.isEmpty()) {
         steps += 1
